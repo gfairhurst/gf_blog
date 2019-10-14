@@ -2,6 +2,7 @@
 
 The below links are *"Explain to Me"* posts for several Data Science and Machine Learning topics. 
 
+- Evaluating ML models
 - Bias and Variance Trade Off
 - Regularization (Lasso, Ridge, Elastic net)
 - bla bla bla 
