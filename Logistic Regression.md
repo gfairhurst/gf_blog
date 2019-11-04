@@ -56,6 +56,7 @@ notes:
 - Cost and Loss function (J):
 
 ![](images/logit_loss_func.png?raw=true)
+![](images/logit_optimization.png?raw=true)
 
 ## Sources
 - [Machine learning with Python Course @ Coursera](https://www.coursera.org/learn/machine-learning-with-python)
