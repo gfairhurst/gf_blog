@@ -29,12 +29,15 @@ Let us assume that *__t__* is a linear function of a single explanatory variable
 
 ![](images/logit_linear_regression_1.png?raw=true)
 
-In the logistic model, **p(x)** is interpreted as the probability of the dependent variable _**Y**_ equaling a success/case.
+In the logistic model, **p(x)** is interpreted as the probability of the dependent variable _**Y**_ equaling a success/case. The same can be written in a matrix form:
+
+![](images/logit_sigmoid_matrix.png?raw=true)
 
 ## Logistic Regression vs Linear Regression
 
 
 The *sigmoid function*, also called the *logistic function*, 
 
-
-
+## Sources
+- ["Machine learning with Python" Course @ Coursera](https://www.coursera.org/learn/machine-learning-with-python)
+- [Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
