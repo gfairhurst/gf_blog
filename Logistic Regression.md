@@ -18,8 +18,16 @@ Here are four situations in which logistic regression is a good candidate:
 3) If your data is linearly separable. The decision boundary of logistic regression is a line or a plane or a hyper plane. A classifier will classify all the points on one side of the decision boundary as belonging to one class, and all those on the other side as belonging to the other class. (Please note that in using logistic regression, we can also achieve a complex decision boundary using polynomial processing as well)
 4) You need to understand the impact of a feature. After finding the optimum parameters, a feature X with the weight Theta one close to zero has a smaller effect on the prediction than features with large absolute values of Theta one. Indeed, it allows us to understand the impact an independent variable has on the dependent variable while controlling other independent variables. 
 
+## Logistic Regression vs Linear Regression
+The linear regression model can work well for regression, but fails for classification. Why is that? 
+- A linear model does not output probabilities, but it treats the classes as numbers (0 and 1) and fits the best hyperplane (for a single feature, it is a line) that minimizes the distances between the points and the hyperplane. So it simply interpolates between the points, and you cannot interpret it as probabilities.
+- A linear model also extrapolates and gives you values below zero and above one. This is a good sign that there might be a smarter approach to classification.
+- Since the predicted outcome is not a probability, but a linear interpolation between points, there is no meaningful threshold at which you can distinguish one class from the other.
+
 ## Logistic function 
-An explanation of logistic regression can begin with an explanation of the standard logistic function. The logistic function is a sigmoid function, which takes any real input t, and outputs a value between zero and one. The standard logistic function is defined as follows:
+A solution for classification is logistic regression. Instead of fitting a straight line or hyperplane, the logistic regression model uses the logistic function to squeeze the output of a linear equation between 0 and 1. The logistic function is a sigmoid function, which takes any real input t, and outputs a value between zero and one. Applying the sigmoid function to the linear regression, solves most of the problems mentioned above.  
+
+The standard logistic function is defined as follows:
 
 ![](images/logit_sigmoid_func.png?raw=true)
 
@@ -33,11 +41,23 @@ In the logistic model, **p(x)** is interpreted as the probability of the depende
 
 ![](images/logit_sigmoid_matrix.png?raw=true)
 
-## Logistic Regression vs Linear Regression
 
+## The Training Process
 
-The *sigmoid function*, also called the *logistic function*, 
+1) Initialize Parameters
+2) Calculate y_hat for all observations
+3) Calculate the total error (Cost), which is the sum of the differences between the estimated y_hat and the real label (y).
+4) Change Paramenters to reduce cost
+5) Go to step 2, until Cost is minimized.
+
+notes:
+- The most common way to optimize the parameters is done via minimize the Loss function using Gradient Descent.
+- The iterative process can be stopped once there is no significant improvement in reducing the Cost.
+- Cost and Loss function (J):
+
+![](images/logit_loss_func.png?raw=true)
 
 ## Sources
-- ["Machine learning with Python" Course @ Coursera](https://www.coursera.org/learn/machine-learning-with-python)
+- [Machine learning with Python Course @ Coursera](https://www.coursera.org/learn/machine-learning-with-python)
 - [Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/logistic.html)
