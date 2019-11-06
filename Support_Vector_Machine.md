@@ -1,7 +1,7 @@
 back to [main page](main.md)
 
 # Support Vector Machine (SVM)
-![](images/svm_header.png?raw=true)
+![](images/svm_header.jpg?raw=true)
 
 ## Intro to SVM
 Support Vector Machine, abbreviated as SVM can be used for both regression and classification tasks. But, it is widely used in classification objectives. 
