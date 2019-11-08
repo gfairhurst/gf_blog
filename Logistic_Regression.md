@@ -1,6 +1,7 @@
 back to [main page](main.md)
 
 # Logistic Regression
+![](images/logistic_regression_header.jpg?raw=true)
 
 ## Intro to Logistic Regression
 
