@@ -1,4 +1,4 @@
-back to [main page](main.md)
+back to [main page](index.md)
 
 # Regression
 ![](images/linear_regression_header.jpg?raw=true)

@@ -1,4 +1,4 @@
-back to [main page](main.md)
+back to [main page](index.md)
 
 # Clustering
 ![](images/k-means_header.jpg?raw=true)

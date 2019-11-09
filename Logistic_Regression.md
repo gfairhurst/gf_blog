@@ -1,4 +1,4 @@
-back to [main page](main.md)
+back to [main page](index.md)
 
 # Logistic Regression
 ![](images/logistic_regression_header.jpg?raw=true)

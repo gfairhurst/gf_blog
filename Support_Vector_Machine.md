@@ -1,4 +1,4 @@
-back to [main page](main.md)
+back to [main page](index.md)
 
 # Support Vector Machine (SVM)
 ![](images/svm_header.jpg?raw=true)
