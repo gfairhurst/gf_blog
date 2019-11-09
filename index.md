@@ -3,7 +3,7 @@ The below links are __*"Explain to Me"*__ posts for several Data Science and Mac
 
 ### Superviced learning  
 - **Regression Algorithms:**    
-  - [Linear Regression](Linear_Regression.md)
+  - [Linear Regression](Linear_regression.md)
   - [Regularization]()
   - [Evaluating Regression Models]()  
   
