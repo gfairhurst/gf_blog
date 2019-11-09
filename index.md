@@ -10,7 +10,7 @@ The below links are __*"Explain to Me"*__ posts for several Data Science and Mac
 - **Classification Algorithms:**
   - [K-Nearest Neighbours]()
   - [Decision Trees]()
-  - [Logistic Regression](Logistic_Regression.md)
+  - [Logistic Regression](Logistic_regression.md)
   - [Support Vector Machines (SVM)](Support_Vector_Machine.md)
   - [Evaluating Classification Models]()   
 
